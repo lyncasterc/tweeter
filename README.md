@@ -1,4 +1,4 @@
 # TWEETER
 
-This is a simple Twitter clone completed as part of [https://www.theodinproject.com/dashboard](The Odin Project's) cirriculum. 
+This is a simple Twitter clone completed as part of (The Odin Project's) [https://www.theodinproject.com/dashboard] cirriculum. 
 
