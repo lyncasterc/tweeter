@@ -1,24 +1,4 @@
-# README
+# TWEETER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Twitter clone completed as part of [https://www.theodinproject.com/dashboard](The Odin Project's) cirriculum. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
