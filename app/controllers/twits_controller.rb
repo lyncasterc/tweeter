@@ -1,5 +1,6 @@
 class TwitsController < ApplicationController
   before_action :set_twit, only: %i[ show edit update destroy ]
+  before_action :authenticate_user!, expect: [:index, :show]
 
   # GET /twits or /twits.json
   def index
@@ -14,7 +15,7 @@ class TwitsController < ApplicationController
   # GET /twits/new
   def new
     @twit = Twit.new
-  end
+  end       
 
   # GET /twits/1/edit
   def edit
