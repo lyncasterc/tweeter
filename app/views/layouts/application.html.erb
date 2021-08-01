@@ -43,7 +43,7 @@
               <div class="field is-grouped">
   
               <% if user_signed_in? %>
-                <%= link_to 'New Twit', new_twit_path, class: "button is-info is-inverted" %>
+                <%= link_to 'New Twit', root_path, class: "button is-info is-inverted" %>
                 <%= link_to current_user.name, edit_user_registration_path, class: "button is-info" %>
                 <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: "button is-info" %>
               <% else %>
