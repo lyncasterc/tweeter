@@ -1,6 +1,6 @@
 class TwitsController < ApplicationController
   before_action :set_twit, only: %i[ show edit update destroy ]
-  before_action :authenticate_user!, expect: [:index, :show]
+  skip_before_action :authenticate_user!, only: [:index, :show]
 
   # GET /twits or /twits.json
   def index
